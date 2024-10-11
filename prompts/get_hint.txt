@@ -1,0 +1,9 @@
+Create 5 fill-in-the-blank questions related to the TOEIC reading skill at CEFR A2 level, with the missing word denoted by four underscore symbols.
+Question No.1:
+The correct answer can be any option from the list. Correct answer list: [<WORD_LIST>]. Ensure that every word in the list can fill in the missing word.
+Questions No. 2 and No. 3:
+Please classify the word in the list: [<WORD_LIST>] into two groups. The questions should be based on the group that contains the word "<TARGET_WORD>", so the correct answer can be any word in that group. Ensure that every word in the group can fill in the missing word and the other group cannot fill in the missing word.
+Question No. 4:
+The question has only one correct word which is "<TARGET_WORD>". Ensure that the correct answer can be only "<TARGET_WORD>", and the rest will be wrong. The wrong answer list is [<INCORRECT_WORD_LIST>]
+Question No. 5:
+The question has only one correct word which is "<TARGET_WORD>". Ensure that the correct answer can be only "<TARGET_WORD>", and the rest will be wrong. The wrong answer list is [<INCORRECT_CHOICES>]

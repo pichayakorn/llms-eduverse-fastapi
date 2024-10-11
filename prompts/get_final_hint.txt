@@ -1,0 +1,1 @@
+Create one fill-in-the-blank question related to the TOEIC reading skill at CEFR A2 level, where the missing place is somewhere in the sentence denote with four underscore symbols. Ensure that the correct answer can be only "<TARGET_WORD>", and the rest will be wrong. The correct word is "<TARGET_WORD>". The wrong answer list is [<INCORRECT_WORD_LIST>]
