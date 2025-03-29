@@ -17,8 +17,7 @@ app = FastAPI()
 
 openai.api_key = os.getenv("OPENAI_API_KEY")
 
-GPT_MODEL = "gpt-4o"
-# GPT_MODEL = "gpt-4o-mini"
+GPT_MODEL = "gpt-4o-2024-08-06"
 CATEGORIES = [
     "Business and Finance",
     "Office and Workplace",

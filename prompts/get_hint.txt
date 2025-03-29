@@ -1,4 +1,4 @@
-Create 5 fill-in-the-blank questions related to the TOEIC reading skill at CEFR A2 level, with the missing word denoted by four underscore symbols.
+Create 5 fill-in-the-blank questions related to the TOEIC reading skill at CEFR B2 level, with the missing word denoted by four underscore symbols.
 Question No.1:
 The correct answer can be any option from the list. Correct answer list: [<WORD_LIST>]. Ensure that every word in the list can fill in the missing word.
 Questions No. 2 and No. 3:
