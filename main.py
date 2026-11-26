@@ -1,3 +1,4 @@
+import json
 import openai
 import random
 import os
@@ -192,7 +193,7 @@ async def generate_words(category_index: Optional[int] = Query(None)):
             tool_calls = response.choices[0].message.tool_calls
             if tool_calls:
                 tool_function_name = tool_calls[0].function.name
-                full_word_list = eval(tool_calls[0].function.arguments)["word_list"]
+                full_word_list = json.loads(tool_calls[0].function.arguments)["word_list"]
                 if tool_function_name == "rand_word":
                     if len(full_word_list) == 10:
                         word_list = full_word_list
@@ -234,7 +235,7 @@ async def generate_words(category_index: Optional[int] = Query(None)):
             tool_calls = response.choices[0].message.tool_calls
             if tool_calls:
                 tool_function_name = tool_calls[0].function.name
-                score_list = eval(tool_calls[0].function.arguments)["score_list"]
+                score_list = json.loads(tool_calls[0].function.arguments)["score_list"]
                 if score_list:
                     if len(score_list) != 10:
                         regen = True
@@ -266,7 +267,7 @@ async def generate_words(category_index: Optional[int] = Query(None)):
             tool_calls = response.choices[0].message.tool_calls
             if tool_calls:
                 tool_function_name = tool_calls[0].function.name
-                hint_list = eval(tool_calls[0].function.arguments)["hint_list"]
+                hint_list = json.loads(tool_calls[0].function.arguments)["hint_list"]
             if len(hint_list) == 5:
                 for i in range(len(hint_list)):
                     if (
